@@ -1,0 +1,218 @@
+.layout {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/*------------------second_banner---------------------*/
+
+.second_banner {
+	height: 415px;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+
+/*---------------banner图下方推荐商品部分------------------*/
+
+.suggest {
+	height: 795px;
+	margin-bottom: 30px;
+}
+
+
+/*-------------------连衣裙dress部分---------------------*/
+
+.dress {
+	height: 1180px;
+	background: #F2F2F2;
+}
+
+.dress .dress_in {
+	overflow: hidden;
+	width: 1000px;
+	height: 891px;
+}
+
+
+/*-------------------各个专栏内项目公共样式----------------*/
+
+.item {
+	width: 242px;
+	height: 387px;
+	float: left;
+	background: #fff;
+	position: relative;
+	margin-bottom: 11px;
+	margin-right: 10px;
+}
+
+.item a img {
+	width: 242px;
+	height: 242px;
+	display: none;
+}
+
+.item .active {
+	display: block;
+}
+
+.item .tab {
+	overflow: hidden;
+	width: 176px;
+	height: 52px;
+	padding: 5px 33px 0 33px;
+	position: relative;
+}
+
+.item .tab img {
+	width: 36px;
+	height: 36px;
+	float: left;
+	margin: 0 3px;
+	border: 1px solid #EDEDED;
+	cursor: pointer;
+}
+
+.item .tab .border {
+	border: 1px solid #FF3344;
+}
+
+.item .left,.right {
+	float: left;
+	width: 14px;
+	height: 34px;
+	border-radius: 2px;
+	border: 1px solid #EDEDED;
+	background: #F1F1F1;
+	font: 16px/34px "";
+	text-align: center;
+	color: #666;
+	position: absolute;
+	z-index: 999;
+}
+
+.item .left {
+	left: 10px;
+	top: 250px;
+}
+
+.item .right {
+	right: 10px;
+	top: 250px;
+}
+
+.item .dec {
+	font: 14px/14px "";
+	color: #666;
+	display: inline-block;
+	width: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-left: 15px;
+}
+
+.item a.dec:hover {
+	color: red;
+}
+
+.item .price_before {
+	display: block;
+	font: 12px/20px "微软雅黑";
+	color: #999;
+	margin-left: 80px;
+	text-decoration: line-through;
+}
+
+.item .bot {
+	width: 220;
+	height: 27px;
+	padding: 0 11px;
+	overflow: hidden;
+}
+
+.item .bot span {
+	float: left;
+	height: 25px;
+	width: 124px;
+	border: 1px dashed #FF3344;
+	border-right: 0;
+	font: 18px/25px "微软雅黑";
+	color: #FF3344;
+	text-align: center;
+}
+
+.item .bot a {
+	float: left;
+	height: 27px;
+	width: 95px;
+	background: #FF3344;
+	text-align: center;
+	font: 14px/27px "";
+	color: #fff;
+}
+.item  .youhui{
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	right: 0;
+}
+
+/*-------------------外套coat部分---------------------*/
+
+.coat {
+	height: 1200px;
+	background: #F2F2F2;
+}
+
+.coat_in {
+	overflow: hidden;
+	width: 1000px;
+	height: 891px;
+}
+/*-------------------T-shirt部分---------------------*/
+
+.t-shirt {
+	height: 1200px;
+	background: #F2F2F2;
+}
+
+.t-shirt-in {
+	overflow: hidden;
+	width: 1000px;
+	height: 891px;
+}
+/*-------------------针织衫knit部分---------------------*/
+
+.knit {
+	height: 1200px;
+	background: #F2F2F2;
+}
+
+.knit-in {
+	overflow: hidden;
+	width: 1000px;
+	height: 891px;
+}
+/*-------------------衬衫部分---------------------*/
+
+.shirt {
+	height: 1200px;
+	background: #F2F2F2;
+}
+
+.shirt-in {
+	overflow: hidden;
+	width: 1000px;
+	height: 891px;
+}
+/*-------------------活动规则---------------------*/
+.rule{
+	height: 340px;
+	background:#F2F2F2 ;
+	margin-bottom: 30px;
+}
+

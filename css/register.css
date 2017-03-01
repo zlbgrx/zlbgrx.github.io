@@ -1,0 +1,192 @@
+/*------------------head部分----------------------*/
+.head{
+	height: 120px;
+	border-bottom: 1px solid #EDEDED;
+}
+.head  .logo{
+	width: 1200px;
+	height: 120px;
+}
+.head  .logo img{
+	float: left;
+	height: 120px;
+}
+.head  .logo p{
+	float: left;
+	height: 50px;
+	width: 200px;
+	font: 30px/50px "微软雅黑";
+	color: #666;
+	border-left: 1px solid #EDEDED;
+	margin-top: 35px;
+	margin-left: 20px;
+	text-align: center;
+}
+/*-----------------注册部分开始-------------------------*/
+.register{
+	height: 575px;
+	border-bottom: 1px solid #EDEDED;
+}
+.register .register_left{
+	height: 575px;
+	width: 848px;
+	float: left;
+}
+.register .register_right{
+	height: 510px;
+	width: 350px;
+	border: 1px solid #EDEDED;
+	float: right;
+	margin-top: 30px;
+}
+.register .haveId{
+	width: 320px;
+	height: 40px;
+	padding: 0 15px;
+	border-bottom: 1px solid #EDEDED;
+	background: #F5F5F5;
+}
+.register .haveId span{
+	font: 12px/40px "";
+	color: #333;
+	font-weight: bold;
+}
+.register .haveId a{
+	float: right;
+	font: 14px/40px "微软雅黑";
+	color: #FF7800;
+}
+.register .item{
+	width: 320px;
+	height: 67px;
+	padding: 0 15px;
+}
+.register .item p{
+	height: 37px;
+	width: 320px;
+	font: 14px/37px "微软雅黑";
+	margin-top: 7px;
+	position: relative;
+}
+.register .item p input{
+	width: 195px;
+	height: 35px;
+	padding: 0 20px;
+	font: 14px/35px  "微软雅黑";
+	margin-left: 10px;
+	border: 1px solid #EDEDED;
+	background: #FCFCFC;
+}
+.register .item p span.bg{
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 34px;
+	background: url(../img/registerImg/bg1.png) no-repeat;
+	z-index: 999;
+	right: 20px;
+	bottom: 1px;
+}
+.register .item p span.bg2{
+	background: url(../img/registerImg/bg2.png) no-repeat;
+}
+.register .item span{
+	font: 12px/30px "";
+	display: none;
+}
+.register .item span.hint{
+	color:limegreen;
+	
+}
+.register .item span.error{
+	color:red ;
+}
+.register .item #checkbox{
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 20px;
+}
+.register .last{
+	height: 80px;
+}
+.register .last p{
+	font: 14px/20px "";
+	color: #333;
+	position: relative;
+}
+.register .last a{
+	display: block;
+	width: 175px;
+	height: 40px;
+	background: #FF3344;
+	color: #fff;
+	font: 16px/40px "";
+	font-weight: bold;
+	text-align: center;
+	border-radius: 2px;
+	position: relative;
+	left: 72px;
+	bottom: 5px;
+	letter-spacing: 5px;
+}
+.register .last p.error{
+	color: red;
+}
+.register #varCode{
+	width: 110px;
+}
+.register a.varCode{
+	display: inline-block;
+	width: 65px;
+	height: 25px;
+	font: 14px/25px "微软雅黑";
+	text-align: center;
+	color: #000;
+	background: #E7F2FF;
+}
+#phondeCode{
+	width: 110px;
+}
+#phondeC{
+	display: inline-block;
+	width: 85px;
+	height: 27px;
+	font: 14px/27px "微软雅黑";
+	text-align: center;
+	color: #000;
+	background: #EAEAEA;
+}
+/*----------------------footer-------------------------*/
+#footer {
+	height: 50px;
+}
+#footer p{
+	width: 1200px;
+	text-align: center;
+	font: 12px/50px "";
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

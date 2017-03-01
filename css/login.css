@@ -1,0 +1,153 @@
+/*-------------------head部分--------------------*/
+.head{
+	height: 120px;
+	border-bottom: 1px solid #EDEDED;
+}
+.head  .logo{
+	width: 1200px;
+	height: 120px;
+}
+.head  .logo img{
+	float: left;
+	height: 120px;
+}
+.head  .logo p{
+	float: left;
+	height: 50px;
+	width: 200px;
+	font: 30px/50px "微软雅黑";
+	color: #666;
+	border-left: 1px solid #EDEDED;
+	margin-top: 35px;
+	margin-left: 20px;
+	text-align: center;
+}
+/*-------------------用户登录部分-----------------------*/
+.unerLogin{
+	height: 540px;
+	padding-top: 20px;
+	border-bottom: 1px solid #EDEDED;
+}
+.unerLogin .left{
+	float: left;
+	width: 840px;
+	height: 540px;
+}
+.unerLogin .login{
+	float: right;
+	height: 315px;
+	width: 350px;
+	border: 1px solid #EDEDED;
+	margin-top: 40px;
+}
+.unerLogin .login .noId{
+	width: 320px;
+	height: 40px;
+	padding: 0 15px;
+	background: #F5F5F5;
+	border-bottom: 1px solid #EDEDED;
+}
+.unerLogin .login .noId span{
+	font: 14px/40px "";
+	font-weight: bold;
+	color: #333;
+}
+.unerLogin .login .noId a{
+	float: right;
+	font: 14px/40px "";
+	color: #FF7800;
+}
+.unerLogin .login .item{
+	width:260px ;
+	height:68px ;
+	padding: 0 45px;
+}
+.unerLogin .login .item p{
+	width: 208px;
+	height:34px ;
+	padding-left: 40px;
+	border: 1px solid #EDEDED;
+	border-radius: 5px;
+	margin-top: 5px;
+	background: #FCFCFC;
+	position: relative;
+}
+.unerLogin .login .first{
+	margin-top: 25px;
+}
+.unerLogin .login .item img{
+	position: absolute;
+	left: 0;
+}
+.unerLogin .login .item p input{
+	font: 14px/34px "微软雅黑";
+	color: #333;
+	padding: 0 10px;
+	width: 150px;
+	background: #FCFCFC;
+}
+.unerLogin .login .item span{
+	color: red;
+	font: 14px/30px "";
+	display: none;
+}
+.unerLogin .login .loginNow{
+	width:260px ;
+	height:68px ;
+	padding: 0 45px;
+	position: relative;
+	
+}
+.unerLogin .login .loginNow input{
+	width: 16px;
+	height: 16px;
+}
+.unerLogin .login .loginNow a{
+	font: 12px/30px "";
+	color: #999;
+}
+.unerLogin .login .loginNow p{
+	font: 14px/20px "";
+	color: #666;
+}
+.unerLogin .login .loginNow .now{
+	float: right;
+	width: 140px;
+	height: 40px;
+	background: #FF3344;
+	font: 16px/40px "";
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	position: absolute;
+	right: 50px;
+	bottom: 15px;
+}
+.unerLogin .login .last{
+	width: 350px;
+	height: 40px;
+	overflow: hidden;
+	border-top: 1px solid #EDEDED;
+}
+.unerLogin .login .last a{
+	float: left;
+	width: 175px;
+	height: 40px;
+	overflow: hidden;
+	background: url(../img/login/other.png) no-repeat left top;
+	background-position: 0 -2px;
+}
+.unerLogin .login .last a.wx{
+	background-position: -175px -2px;
+}
+/*-----------------------------footer-----------------------*/
+#footer {
+	height: 50px;
+}
+#footer p{
+	width: 1200px;
+	text-align: center;
+	font: 12px/50px "";
+	color: #666;
+}

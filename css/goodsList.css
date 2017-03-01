@@ -1,0 +1,68 @@
+/*商品列表goodsList*/
+.goodsList{
+	min-height:400px ;
+	margin-bottom: 60px;
+	padding-top: 60px;
+	overflow: hidden;
+}
+.goodsList .item{
+	float: left;
+	width: 260px;
+	height: 360px;
+	padding: 20px 10px;
+	position: relative;
+	border: 1px solid lightgrey;
+	margin: 0 9px;
+	margin-bottom: 10px;
+}
+.goodsList .item img{
+	width: 260px;
+	height: 260px;
+}
+.goodsList .item .dec{
+	display: block;
+	width:260px ;
+	font: 14px/50px "";
+	color: #333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.goodsList .item .dec:hover{
+	color: #f43;
+}
+.goodsList .item p{
+	font: 20px/50px "微软雅黑";
+	color: #f43;
+	padding-left: 15px;
+}
+.goodsList .item .addCart{
+	display: block;
+	width: 120px;
+	height: 40px;
+	background: #c00;
+	color: #fff;
+	text-align: center;
+	font: 16px/40px "微软雅黑";
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	border-radius: 3px;
+}
+.goodsList .num{
+	position: absolute;
+	right: 10px;
+	bottom: 20px;
+	
+	display: block;
+	width: 120px;
+	height: 40px;
+	font: 16px/40px "微软雅黑";
+	color: #fff;
+	background: #f43;
+	text-align: center;
+	border-radius: 3px;
+}
+.goodsList .num span{
+	padding: 0 5px;
+}

@@ -1,0 +1,339 @@
+/*------------------head部分----------------------*/
+.head{
+	height: 120px;
+}
+.head  .logo{
+	width: 750px;
+	height: 120px;
+	float: left;
+}
+.head  .logo img{
+	float: left;
+	height: 120px;
+}
+.head  .logo p{
+	float: left;
+	height: 50px;
+	width: 200px;
+	font: 30px/50px "微软雅黑";
+	color: #666;
+	border-left: 1px solid #EDEDED;
+	margin-top: 35px;
+	margin-left: 20px;
+	text-align: center;
+}
+.head .search{
+	float: right;
+	height: 34px;
+	width: 430px;
+	border: 1px solid #EDEDED;
+	border-radius: 3px;
+	margin-top: 38px;
+	margin-right: 18px;
+	overflow: hidden;
+}
+.head .search input{
+	height: 24px;
+	margin-top: 5px;
+	width: 320px;
+	padding: 0 15px;
+	float: left;
+}
+.head .search a{
+	float: right;
+	height: 34px;
+	width: 79px;
+	font: 16px/34px "微软雅黑";
+	color: #333;
+	text-align: center;
+	border-left: 1px solid #EDEDED;
+}
+.adv{
+	height: 80px;
+	margin-bottom: 15px;
+}
+/*--------------------------购物车-------------------------------*/
+.cart{
+	min-height: 230px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.cart .none{
+	height: 230px;
+	width: 1198px;
+	display: none;
+	border: 1px solid #EDEDED;
+}
+
+.cart .none>p{
+	width: 1158px;
+	height: 44px;
+	border-bottom: 1px solid #EDEDED;
+	padding: 0 20px;
+	font: 14px/44px "";
+	color: #FF3344;
+	background: #F5F5F5;
+	font-weight: bold;
+}
+.cart .none .box img{
+	float: left;
+	margin-left: 380px;
+}
+.cart .none .box p{
+	font: 14px/185px "";
+	color: #333;
+}
+.cart .none .box p a{
+	padding: 0 10px;
+	color: dodgerblue;
+}
+/*购物车内有商品时*/
+.cart .myCart .top{
+	width: 1198px;
+	height: 70px;
+	background: #fff;
+}
+.cart .myCart .top p{
+	width: 120px;
+	font: 14px/46px "微软雅黑";
+	color: #FF3344;
+	font-weight: bold;
+	border-bottom: 2px solid #c00;
+	text-align: center;
+	float: left;
+	
+}
+.cart .myCart .top a{
+	float: right;
+	width: 120px;
+	height: 40px;
+	background: #f43;
+	color: #fff;
+	text-align: center;
+	font: 16px/40px "微软雅黑";
+	border-radius: 3px;
+	margin-right: 10px;
+	
+}
+.cart .myCart .list{
+	width: 1198px;
+	min-height: 180px;
+	border: 1px solid #EDEDED;
+	border-bottom: 0;
+	overflow: hidden;
+}
+
+.cart .myCart .list .head{
+	overflow: hidden;
+	width: 1198px;
+	background: #FAFAFA;
+	height: 43px;
+	border-bottom: 1px solid #EDEDED;
+}
+.cart .myCart .list .head li{
+	font: 14px/30px "微软雅黑";
+}
+.cart .myCart .list li{
+	float: left;
+	text-align: center;
+	padding: 8px 10px;
+}
+.cart .myCart .list .checked{
+	width: 35px;
+}
+.cart .myCart .list .order{
+	width: 490px;
+	
+}
+.cart .myCart .list .uPrice,.sum,.del{
+	width: 130px;
+	
+}
+.cart .myCart .list .num{
+	width: 163px;
+	
+}
+.cart .myCart .list ul{
+	height: 135px;
+	border-bottom: 1px solid #EDEDED;
+	overflow: hidden;
+}
+.cart .goods img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-top: 25px;
+}
+.cart .goods li{
+	height: 135px;
+	line-height: 100px;
+}
+.cart .goods .check{
+	width: 18px;
+	height: 18px;
+}
+.cart .goods div a{
+	font: 14px/100px "";
+	color: #333;
+	padding: 0 10px;
+}
+.cart .goods div a:hover{
+	color: #FF3344;
+}
+.cart .goods .sum{
+	font: 16px/100px "微软雅黑";
+	color: #FF3344;
+}
+.cart .goods .remove{
+	font: 14px/100px "";
+	color: #333;
+}
+.cart .goods .reduce,.increase{
+	float: left;
+	width: 30px;
+	height: 27px;
+	background: #E6E6E6;
+	color: #333;
+	margin-top: 37px;
+	
+	line-height: 27px;
+}
+.cart .goods .reduce{
+	margin-left: 25px;
+}
+.cart .goods .input{
+	float: left;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	border: 1px solid #EDEDED;
+	margin-top: 37px;
+}
+.cart .pay{
+	height: 50px;
+	width: 1148px;
+	background:#F5F5F5 ;
+	padding: 25px;
+	border: 1px solid #EDEDED;
+	margin-top: 20px;
+}
+.pay .left{
+	width: 300px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+.pay .left input{
+	height: 18px;
+	width: 18px;
+}
+.pay .left a{
+	padding: 0 10px;
+	color: #333;
+}
+.pay .right{
+	width: 300px;
+	height: 50px;
+	float: right;
+	position: relative;
+}
+.pay .right p{
+	font: 16px/50px "";
+	color: #333;
+	font-weight: bold;
+}
+.pay .right p span{
+	font: 20px/50px "微软雅黑";
+	color: #FF3344;
+}
+.pay .right .payNow{
+	position: absolute;
+	float: right;
+	width: 120px;
+	height: 45px;
+	background: #FF3344;
+	color: #fff;
+	text-align: center;
+	font: 16px/45px "微软雅黑";
+	right: 20px;
+	top: 10px;
+	border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------热门推荐-------------------------------*/
+.suggest{
+	height: 350px;
+	margin-bottom: 50px;
+}
+.suggest .box{
+	width: 1198px;
+	height: 348px;
+	border: 1px solid #EDEDED;
+	overflow: hidden;
+}
+.suggest .box>p{
+	width: 1158px;
+	height: 44px;
+	border-bottom: 1px solid #EDEDED;
+	padding: 0 20px;
+	font: 14px/44px "";
+	color: #FF3344;
+	background: #F5F5F5;
+	font-weight: bold;
+}
+.suggest .box .item{
+	width: 170px;
+	height: 275px;
+	padding: 25px 15px 0 15px;
+	float: left;
+	position: relative;
+}
+.suggest .box .item img{
+	width: 170px;
+	height: 170px;
+	margin-bottom: 10px;
+}
+.suggest .box .item a{
+	font: 14px/18px "";
+	color: #333;
+}
+.suggest .box .item a:hover{
+	color: red;
+}
+.suggest .box .item p{
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+}
+.suggest .box .item p .priceN{
+	font: 18px/30px "微软雅黑";
+	color: #f43;
+}
+.suggest .box .item p .priceB{
+	font: 12px/30px "微软雅黑";
+	color: #999;
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

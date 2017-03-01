@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/register.css" />
+		<script type="text/javascript" src="../js/jquery-3.0.0.min.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+	</head>
+	<body>
+		<!--top部分开始-->
+		<div class="top">
+			<div class="cantainer">
+				<span>华盛奥特莱斯全渠道一体化零售平台</span>
+				
+				<ul>
+					<li><a href="../login/login.html">登录</a><i>丨</i></li>
+					<li><a href="javascript:;">免费注册</a><i>丨</i></li>
+					<li class="slideUp"><a href="javascript:;">我的奥莱购</a><i>丨</i></li>
+					<li><a href="javascript:;">手机App</a><i>丨</i></li>
+					<li><a href="javascript:;">帮助中心</a></li>
+				</ul>
+				
+				<ul class="up">
+					<li>
+						<a href="javascript:;">我的订单</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的收藏</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的优惠券</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的购物车</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--top部分结束-->
+		<div class="head">
+			<div class="cantainer">
+				<div class="logo">
+					<a href="../index.html"><img src="../img/registerImg/logo.png"/></a>
+					<p>欢迎注册</p>
+				</div>
+			</div>
+		</div>
+		<!--注册部分开始-->
+		<div class="register">
+			<div class="cantainer">
+				<div class="register_left">
+					<a href="javascript:;">
+						<img src="../img/registerImg/left.png" />
+					</a>
+				</div>
+				<div class="register_right">
+					<div class="haveId">
+						<span>注册华盛奥莱会员</span>
+						<a href="../login/login.html">已有账户，登录</a>
+					</div>
+					<div class="item userName">
+						<p>注册账号
+							<input type="text" placeholder="请输入手机号" id="phoneNumber"/>
+							<span class="bg bg1"></span>
+						</p>
+						<span class="hint">请输入注册的手机号</span>
+						<span class="error">账号暂时只开放手机号码注册</span>
+					</div>
+					<div class="item passWord">
+						<p>输入密码
+							<input type="password" placeholder="请输入密码" id="passWord"/>
+							<span class="bg bg2"></span>
+						</p>
+						<span class="hint">6-20位字符，可使用字母、数字与字符的组合</span>
+						<span class="error">密码长度在6-20位之间</span>
+					</div>
+					<div class="item pwd">
+						<p>确认密码
+							<input type="password" placeholder="请输入密码" id="pwd"/>
+							<span class="bg bg2"></span>
+						</p>
+						<span class="hint">请再次输入密码</span>
+						<span class="error">两次输入密码不一致</span>
+					</div>
+					<div class="item">
+						<p>　验证码
+							<input type="text" placeholder="请输入验证码" id="varCode"/>
+							<a href="javascript:;" class="varCode">bwls</a>
+							<input type="hidden" name="" id="" value=""  id="hidden"/>
+						</p>
+						<span class="hint">输入验证码</span>
+						<span class="error">验证码错误</span>
+					</div>
+					<div class="item">
+						<p>短信验证
+							<input type="text" placeholder="请输入验证码" id="phondeCode"/>
+							<a href="javascript:;" id="phondeC">获取验证码</a>
+						</p>
+						<span class="hint">输入验证码</span>
+						<span class="error">验证码错误</span>
+					</div>
+					<div class="item last">
+						<p class="check"><input type="checkbox" id="checkbox"/>&lt;&lt;奥莱购会员协议&gt;&gt;</p>
+						<a href="javascript:;" id="register">注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer部分-->
+		<div class="footer" id="footer">
+			<div  class="cantainer">
+				<p>Copyright © 2013-2016 深圳华盛电子商务有限公司 粤ICP备14007326号-1 All Right</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/public.js" ></script>
+		<script type="text/javascript" src="../js/register.js" ></script>
+	</body>
+</html>

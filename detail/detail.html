@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/detail.css" />
+		<script type="text/javascript" src="../js/jquery-3.0.0.min.js" ></script>
+	</head>
+	<body>
+		<!--top部分开始-->
+		<div class="top">
+			<div class="cantainer">
+				<span>华盛奥特莱斯全渠道一体化零售平台</span>
+				
+				<ul>
+					<li><a href="../login/login.html">登录</a><i>丨</i></li>
+					<li><a href="../register/register.html">免费注册</a><i>丨</i></li>
+					<li class="slideUp"><a href="javascript:;">我的奥莱购</a><i>丨</i></li>
+					<li><a href="javascript:;">手机App</a><i>丨</i></li>
+					<li><a href="javascript:;">帮助中心</a></li>
+				</ul>
+				
+				<ul class="up">
+					<li>
+						<a href="javascript:;">我的订单</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的收藏</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的优惠券</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的购物车</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--top部分结束-->
+		<!--头部广告部分开始-->
+		<div class="adv">
+			<div class="cantainer">
+				<div><a href="javascript:;"><img src="../img/indexImg/adv.jpg" alt="adv" /></a></div>
+			</div>
+		</div>
+		<!--头部广告部分结束-->
+		<!--search部分开始-->
+		<div class="search">
+			<div class="cantainer">
+				<div class="logo"><a href="../index.html"><img src="../img/indexImg/logo.png"/></a></div>
+				<div class="s_left"><a href="javascript:;"><img src="../img/indexImg/s_left.gif"/></a></div>
+				<div class="s_center">
+					<p><input type="text"/><a href="javascript:;"></a></p>
+					<ul>
+						<li>热门搜索：</li>
+						<li><a href="javascript:;">新百伦</a></li>
+						<li><a href="javascript:;">T恤</a></li>
+						<li><a href="javascript:;">连衣裙</a></li>
+						<li><a href="javascript:;">休闲鞋</a></li>
+						<li><a href="javascript:;">防晒</a></li>
+						<li><a href="javascript:;">春装</a></li>
+						<li><a href="javascript:;">耐克</a></li>
+					</ul>
+				</div>
+				<div class="s_right">
+					<ul>
+						<li><a href="javascript:;" class="icon1"></a></li>
+						<li><a href="javascript:;" class="icon2"></a></li>
+						<li><a href="javascript:;" class="icon3"></a></li>
+					</ul>
+				</div>
+				<!--移动端按钮下对应的弹出框-->
+				<div class="tanchu">
+					<div class="tanchu-in" >
+						<img src="../img/indexImg/QRcode.png" />
+						<span>下载安装奥莱购APP</span>
+						<ul>
+							<li><a href="javascript:;"><img src="../img/indexImg/icon-01.png" alt="icon" /></a></li>
+							<li><a href="javascript:;"><img src="../img/indexImg/icon-02.png" alt="icon" /></a></li>
+							<li><a href="javascript:;"><img src="../img/indexImg/icon-03.png" alt="icon" /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--search部分结束-->
+		<!--nav导航条部分开始-->
+		<div class="nav">
+			<div class="cantainer">
+				<span>全部商品分类</span>
+				<ul>
+					<li><a href="javascript:;">首页</a></li>
+					<li><a href="javascript:;">奢侈品</a></li>
+					<li><a href="javascript:;">华盛商城</a></li>
+					<li><a href="javascript:;">品牌特卖</a></li>
+					<li><a href="javascript:;">跨境汇</a></li>
+				</ul>
+				<p class="cart">
+					<a href="javascript:;">购物车（<span>0</span>）</a>
+				</p>
+				<!--购物车按钮对应的弹出框-->
+				<div class="cart-up">
+					<div class="cart-up-in">
+						<p >购物车商品</p>
+						<div class="my_cart">
+							<span>您的购物车中还没有商品，赶紧选购吧！</span>
+							<ul id="cart_list"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--nav导航条部分结束-->
+		<!--details分开始-->
+		<div class="details">
+			<div class="cantainer">
+			<!--当前网页所处位置信息-->
+				<div class="massage">
+					<a href="javascript:;" class="first">奥莱商城</a><span>&gt;</span>
+					<a href="javascript:;">女装</a><span>&gt;</span>
+					<a href="javascript:;">裙装</a><span>&gt;</span>
+					<a href="javascript:;">连衣裙</a><span>&gt;</span>
+					<a href="javascript:;">La Chapelle</a><span>&gt;</span>
+					<a href="javascript:;" class="last">La Chapelle 拉夏贝尔 新品字母提花宽松套头长袖连衣裙 10008791</a>
+				</div>
+			<!--产品对应的展示列表及放大镜部分-->
+				<div class="product">
+					<div class="details_left">
+						<div class="tabImg">
+							<a href="javascript:;" class="prev"></a>
+							<a href="javascript:;" class="next"></a>
+						</div>
+						<div class="smallImg">
+							<div class="tool"></div>
+						</div>
+						<div class="share">
+							<a href="javascript:;" class="share1">正品保障</a>
+							<a href="javascript:;" class="share2">天天低价</a>
+							<a href="javascript:;" class="share3">分享</a>
+							<a href="javascript:;" class="share4">收藏商品</a>
+							<div class="shareBox">
+								<span>分享到</span>
+								<a href="javascript:;"><span class="bg1"><img src="../img/detailImg/details/bg01.png"/></span>　　微信</a>
+								<a href="javascript:;"><span class="bg2"><img src="../img/detailImg/details/bg02.png"/></span>　　微博</a>
+								<a href="javascript:;"><span class="bg3"><img src="../img/detailImg/details/bg03.png"/></span>　　qq书签</a>
+								<a href="javascript:;"><span class="bg4"><img src="../img/detailImg/details/bg04.png"/></span>　　qq好友</a>
+								<a href="javascript:;" ><span class="bg5"><img src="../img/detailImg/details/bg05.png"/></span>　　qq空间</a>
+								<a href="javascript:;"><span class="bg6"><img src="../img/detailImg/details/bg06.png"/></span>　　人人网</a>
+							</div>
+						</div>
+						<div class="bigImg"></div>
+					</div>
+					<!--产品展示中间部分-->
+					<div class="details_center">
+						<div class="center_top">
+							<p><img src="../img/detailImg/details/zhuangui_bg.png"/>La Chapelle 拉夏贝尔 新品字母提花宽松套头长袖连衣裙 10008791</p>
+							<span>此商品正参与两件8折活动！</span>
+						</div>
+						<p class="price">奥  莱  价：<span class="sp1">¥221.00</span><span class="sp2">¥369.00<span></p>
+						<p class="cuxiao">促销信息：<span>下单购满2件打8.00折/件</span></p>
+						<div class="buy">
+							<p class="color">选择颜色:<a href="javascript:;">黑色</a></p>
+							<p class="size">选择尺码:
+								<a href="javascript:;">160/84A(38)</a>
+								<a href="javascript:;">165/88A(40)</a>
+							</p>
+						</div>
+						<div class="count">
+							<!--数量信息-->
+							<div class="shuliang">选择数量剩余<span id="sy">8</span>件</div>
+							<div class="jiajian">
+								<input type="text"  value="1"/>
+								<button class="jia">+</button>
+								<button class="jian">-</button>
+							</div>
+							<a href="../cart/goodsList.html" class="jionCart">加入购物车</a>
+							<a href="javascript:;" class="qrCode">
+								<div class="code"><img src="../img/detailImg/details/QRcode.png"/></div>
+							</a>
+						</div>
+					</div>
+					<!--产品展示右侧部分-->
+					<div class="details_right">
+						<a href="javascritp:;"><img src="../img/detailImg/details/logo.jpg"/></a>
+						<div id="proMassage">
+							<span>商品编号：240301063051</span><br />
+							<span>EPR货号：214131D</span><br />
+							<span>发货地：深圳华盛奥莱购</span><br />
+							<img src="../img/detailImg/details/code.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--details部分结束-->
+		<!--产品展示部分开始-->
+		<div class="show">
+			<div class="cantainer">
+				<div class="show_left">
+					<p class="top"></p>
+				</div>
+				<div class="show_right">
+					<p class="top">
+						<a href="javascript:;" class="active">商品介绍</a>
+						<a href="javascript:;">售后服务</a>
+					</p>
+					<!--产品详细介绍-->
+					<div class="introduce">
+						<p>
+							<span class="first">商品名称：拉夏贝尔 新品字母提花宽松套头长袖连衣裙 10008791</span>
+							<span>商品编号：50240301017046</span>
+							<span>上架时间：2016/9/13 16:24:30</span>
+							<span>商品毛重：/</span>
+						</p>
+					</div>
+					<!--售后服务-->
+					<div class="service">
+						<img src="../img/detailImg/show/service.jpg" />
+						<div>
+							<strong>退换货通用总则</strong><br>
+							<p>
+								1、奥莱购承诺自顾客签收商品之日起7日内申请退货，15日内申请换货（以快递公司的送货单上的签收日期为准），如符合以下条件，我们将提供商品退换货服务：<br>
+							</p>
+							<p>1) 商品及商品本身的外包装没有损坏，保持出售时的原质原样；</p>
+							<p>2) 确保商品及配件、附带品或者赠品、保修卡、三包凭证、发票、奥莱购发货清单齐全；</p>
+							<p>3) 注明退换货原因，如果商品存在质量问题，请务必说明；</p>
+							<p>4) 如果成套商品中有部分商品存在质量问题，在办理退换货时，必须提供成套商品；</p>
+							<p>5) 若调换的尺码或颜色库存为零，则无法进行换货，商品送达15天以内，顾客可以选择退货。</p>
+							<p>6) 专柜同步商品，由于库存有限，不支持换货，只支持退货。</p>
+						</div>
+						<div>
+							<p>
+								2、请注意，以下情况无法退货：<br>
+							</p>
+							<p>1) 商品吊牌，包装破损，发货单、商品配件（如配饰挂坠等）、说明书、保修单、标签等丢失；</p>
+							<p>2) 密封产品原包装打开或封口贴损坏；</p>
+							<p>3) 产品通电、过水、插入卡槽等已使用；</p>
+							<p>4) 钻石、黄金、珠宝首饰不接受退货；</p>
+							<p>5) 数码家电商品无质量问题不接受退货；</p>
+							<p>6) 个人护理用品、贴身用品(内裤类、袜子类、文胸类、泳衣类）、化妆品等，出于安全考虑，无质量问题不接受退换货。（因个人喜好，如气味、色泽、型号、外观等）；</p>
+							<p>7) 其他可能影响二次销售的商品。</p>
+						</div>
+						<div>
+							<p>
+								3、特别说明，以下情况不予办理退换货：<br>
+							</p>
+							<p>1) 任何非由奥莱购出售的商品；（如序列号不符）</p>
+							<p>2) 过保商品（超过三包保修期的商品）；</p>
+							<p>3) 任何已使用过的商品，但有质量问题除外；</p>
+							<p>4) 专柜同步商品，由于库存有限，不支持换货，只支持退货；</p>
+							<p>5) 礼包或套装中的商品不可以部分退货，有绑定赠品的主商品要将赠品一同进行退换货；</p>
+							<p>6) 其他依法不应办理退换货的（详见各类商品退货细则）；</p>
+							<p>7) 所有活动清仓商品（含秒杀商品）及在奥莱购特卖频道销售的商品，由于库存有限，除特别指明的某些商品不提供退换货服务外，其他商品提供7天内退货服务，不提供换货服务。</p>
+						</div>
+						<div>
+							<strong>退换货通用细则</strong><br>
+							<p>1、退换货条件：订单签收7天内，确保商品本身完好，品相全新，防伪签完好、附属配件和发票齐全，若有赠品需一同退回，奥莱购收到商品经质检合格后，方可受理退换货服务，非退换货条件除外；</p>
+							<p>2、对于带有安全封条商品，如安全封条拆除或破损则无法为您办理退货，请您务必保证安全封条的完整性；</p>
+							<p>3、奥莱购名品订单，只提供一次退换货服务，敬请谅解；</p>
+							<p>4、为确保退换商品安全，建议使用顺丰快递；</p>
+							<p>5、如客户未经奥莱购办理退换货申请，直接将商品退回奥莱购，奥莱购不承担保管、重新发货、退款等责任;</p>
+							<p>6、对于带有防伪标签的商品，防伪标签一经拆除，则无法办理退换货服务，敬请谅解。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--产品展示部分结束-->
+		<!--bottom上方-->
+		<div class="bottom_top">
+			<div class="cantainer">
+				<div class="post"></div>
+			</div>
+		</div>
+		<!--bottom-->
+		<div class="bottom">
+			<div class="cantainer">
+				<div class="bottom_left">
+					<ul>
+						<li><span>购物指南</span></li>
+						<li><a href="javascript:;">购物流程</a></li>
+						<li><a href="javascript:;">用户注册</a></li>
+						<li><a href="javascript:;">提交订单</a></li>
+						<li><a href="javascript:;">找回密码</a></li>
+						<li><a href="javascript:;">常见问题</a></li>
+						<li><a href="javascript:;">跨境汇须知</a></li>
+					</ul>
+					<ul>
+						<li><span>支付方式</span></li>
+						<li><a href="javascript:;">网银支付</a></li>
+						<li><a href="javascript:;">第三方支付</a></li>
+						<li><a href="javascript:;">支付常见问题</a></li>
+					</ul>
+					<ul>
+						<li><span>配送方式</span></li>
+						<li><a href="javascript:;">配送服务查询</a></li>
+						<li><a href="javascript:;">配送服务说明</a></li>
+						<li><a href="javascript:;">验货与签收</a></li>
+						<li><a href="javascript:;">包邮政策</a></li>
+					</ul>
+					<ul>
+						<li><span>售后服务</span></li>
+						<li><a href="javascript:;">退换货政策</a></li>
+						<li><a href="javascript:;">退换货管理</a></li>
+						<li><a href="javascript:;">退换货说明</a></li>
+						<li><a href="javascript:;">退换货流程</a></li>
+						<li><a href="javascript:;">跨境汇售后服务</a></li>
+					</ul>
+					<ul class="last">
+						<li><span>线下奥莱购购物中心</span></li>
+						<li><a href="javascript:;">深圳华盛奥特莱斯</a></li>
+						<li><a href="javascript:;">南宁华盛奥特莱斯</a></li>
+						<li><a href="javascript:;">南昌华盛奥特莱斯</a></li>
+						<li><a href="javascript:;">西安华盛奥特莱斯</a></li>
+						<li><a href="javascript:;">郑州华盛奥特莱斯</a></li>
+						<li><a href="javascript:;">哈尔滨华盛奥特莱斯</a></li>
+					</ul>
+				</div>
+				<div class="bottom_right">
+					<div class="bottom_right_top">
+						<dl>
+							<dt><a href="javascript:;"><img src="../img/indexImg/weibo-icon.png"/></a></dt>
+							<dd>官方微博</dd>
+						</dl>
+						<dl>
+							<dt><a href="javascript:;"><img src="../img/indexImg/logo-icon.png"/></a></dt>
+							<dd>官方应用</dd>
+						</dl>
+					</div>
+					
+					<div class="phoneNum">
+						<p>400 - 184 - 8866</p>
+						<span>周一至周日：09:00-21:00</span>
+					</div>
+					<a href="javascript:;" class="service"></a>
+				</div>
+			</div>
+		</div>
+		<!--bottom部分结束-->
+		<!--footer部分开始-->
+		<div class="footer">
+			<div class="cantainer">
+				<p>
+					<a href="">关于奥莱购</a><span>丨</span>
+					<a href="">联系我们</a><span>丨</span>
+					<a href="">诚聘英才</a><span>丨</span>
+					<a href="">商务合作</a><span>丨</span>
+					<a href="">友情链接</a><span>丨</span>
+					<a href="">华南城网</a><span>丨</span>
+					<a href="">华盛Outlets</a>
+				</p>
+				<p>Copyright © 2013-2016 深圳华盛电子商务有限公司 粤ICP备16081451-1号 All Right </p>
+				<p>深圳市龙岗区平湖华南城1号交易广场4楼奥莱购（深圳华盛电子商务有限公司）</p>
+				<ul>
+					<li><a href="javascript:;" class="foot01"></a></li>
+					<li><a href="javascript:;" class="foot02"></a></li>
+					<li><a href="javascript:;" class="foot03"></a></li>
+					<li><a href="javascript:;" class="foot04"></a></li>
+					<li><a href="javascript:;" class="foot05"></a></li>
+					<li><a href="javascript:;" class="foot06"></a></li>
+					<li><a href="javascript:;" class="foot07"></a></li>
+					<li><a href="javascript:;" class="foot08"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--footer部分结束-->
+		<script type="text/javascript" src="../js/public.js" ></script>
+		<script type="text/javascript" src="../js/detail.js" ></script>
+	</body>
+</html>
