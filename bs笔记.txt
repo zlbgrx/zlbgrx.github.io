@@ -1,0 +1,302 @@
+bootstrap
+1.bootstrap安装
+2.bootstrap全局css样式
+3.bootstrap css组件
+4.bootstrap javascript插件
+
+
+ bootstrap安装:
+ <link rel="stylesheet" href="bs/css/bootstrap.css">
+ <script src="bs/js/jquery-1.12.4.min.js"></script>
+ <script src="bs/js/bootstrap.js"></script>
+
+ html5文档类型:
+ <!doctype html>
+
+ 移动端设备的真实宽度:
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+
+bootstrap学习大纲:
+	布局容器:
+ 	.container
+	1.css样式
+		1)栅格系统
+			.row 一行12列
+				 lg
+ 			.col-md-4 占3列
+ 				 sm
+ 				 xs
+		2)排版
+			 1.标题(.page-header)
+			 2.段落(.lead)
+			 3.mark标记
+			 4.del删除线
+			 5.small小号字体
+			 6.文本对齐
+				 .text-left
+				 .text-right
+				 .text-center
+			 7.文本大小写
+			 	.text-lowercase
+			 	.text-uppercase
+			 	.text-capitalize
+			 8.无样式列表(
+			 <ul class="list-unstyled">
+			 	<li>....</li>
+			 </ul>
+			 )
+			9.自定义列表
+				dl-horizontal
+		3)代码
+			1.code(标记)
+			2.pre(按原格式输出)
+			3.kbd(标记成键盘按键)
+			4.var(斜体等同于i)
+		4)表格
+			table
+			.table-striped(条纹)
+			.table-bordered(格)
+			.table-hover
+			.table-condensed(紧缩表格)
+			行的颜色:
+				.success绿
+				.active灰
+				.info青
+				.warning黄
+				.danger红
+		5)表单
+			.form-group
+				.form-control
+			.checkbox
+			.radio
+			.form-inline(横排)
+			.input-group
+				input-group-addon
+
+			.form-horizontal
+			.control-label
+			.form-control-static(解决输入框字体偏上)
+			readonly(只读)
+			disabled(禁止输入)(单行)
+			<fieldset disabled></fieldset>区域全禁止
+			表单框颜色:
+				.has-success
+				.has-waring
+				.has-error
+			表单框内使用文本图标:
+				.has-feedback
+					.form-control-feedback
+			表单框的帮助提示:
+				.help-block
+		6)按钮
+			.btn
+			.btn-default
+			.btn-primary
+			.btn-success
+			.btn-info
+			.btn-waring
+			.btn-danger
+			.btn-link
+
+			按钮大小:
+			.btn-lg
+			.btn-sm
+			.btn-xs
+			.btn-block(独占一行的大按钮)
+		7)图片
+			.img-rounded
+			.img-circle
+			.img-thumbnail
+		8)辅助类
+			文本颜色:
+				.text-muted
+				.text-primary
+				.....
+			文本背景颜色:
+				.bg-info
+				...
+			关闭按钮:
+				.close(直接放在块元素的右上角)
+			更多:
+				.caret(向下的三角小箭头)
+			清除浮动:
+				.clearfix
+			内容居中:
+				.center-block
+			显示:
+				.show
+			隐藏:
+				.hide
+
+		9)响应式工具
+			.img-responsive
+			.table-responsive
+
+	2.css组件
+		1)glyphicons图标/字符图标
+			(官网找)(可根据调整font-size调整大小)
+			.glyphicon glyphicon-...
+
+		2)下拉菜单
+			.dropdown
+			data-toggle="dropdown"
+
+			<div class="dropdown">
+				<button class="btn btn-primary" data-toggle='dropdown'>更多 <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li class="dropdown-header">qqqqq</li>
+					<li>qqqqq</li>
+					<li class="divider">qqqqq</li>(分割线)
+					<li>qqqqq</li>
+				</ul>
+			</div>
+
+		3)按钮组
+			.btn-toolbar
+				.btn-group .btn-group-lg
+			.dropdown-toggle
+			.btn-group-vertical
+			.btn-group btn-group-justified
+		4)输入框组
+			.input-group
+			.input-group-addon
+			.input-group-lg/sm
+			.input-group-btn
+		5)导航
+			.nav 
+			.nav-tabs 横向导航条
+			.nav-pills 竖向
+			.nav-stacked 竖向堆叠
+		6)导航条
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="" class="navbar-brand"><img src="bd_logo1.png" height="100%" alt=""></a>
+						<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div id="mynavbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="">malijie</a></li>
+							<li><a href="">malijie</a></li>
+							<li><a href="">malijie</a></li>
+							<li><a href="">malijie</a></li>
+							<li><a href="">malijie</a></li>
+						</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="">malijie</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</nav>
+
+
+			.navbar
+			.navbar-default
+			.navbar-inverse 
+			.navbar-fixed-top/bottom
+			.navbar-header
+			.navbar-brand
+			.navbar-nav
+			.navbar-form
+			.navbar-btn
+			.navbar-text
+			.navbar-link
+			.navbar-left/right
+		7)路径导航
+			.breadcrumb面包屑导航/路径导航
+			.pagination分页导航
+			.pager上下页
+				.previous
+				.next
+				<ul class="pager">
+					<li class="previous"><a href="">上一页</a></li>
+					<li class="next"><a href="">下一页</a></li>
+				</ul>
+		8)分页
+			.pager上下页
+				.previous
+				.next
+				<ul class="pager">
+					<li class="previous"><a href="">上一页</a></li>
+					<li class="next"><a href="">下一页</a></li>
+				</ul>
+		9)标签
+			.label
+			.label-primary
+			.label-success
+			.label-info
+			.label-warning
+			.label-danger
+		10)徽章
+			.badge(自动到右边)
+				<button class="btn btn-primary">ma <span class="badge">30</span></button>
+		11)巨幕
+			.jumbotron
+		12)页头
+			.page-header
+		13)缩略图
+			.thumbnail
+		14)警告框
+			.alert
+			.alert-success
+			.alert-info
+			.alert-warning
+			.alert-danger
+				.close
+				data-dismiss="alert" 关闭警告框
+			.alert-link字体加粗
+		15)进度条
+			.progress
+				.progress-bar
+				.progress-bar-danger/info/warning/success
+				.progress-bar-striped
+		16)媒体对象
+			.media
+			.media-left
+			.media-object
+			.media-body
+			.media-heading
+			.media-right
+			.media-top/middle/bottom
+		17)列表组
+			.list-group
+				.list-group-item
+				.list-group-item-success/info/danger
+		18)面板
+			.panel
+				.panel-heading
+					.lanel-title
+				.panel-body
+		19)响应式嵌入内容
+			iframe
+			.embed-responsive
+			.embed-responsive-16by9
+				iframe.embed-responsive-item
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="http://www.baidu.com" scrolling="no"></iframe>
+			</div>
+		20)well
+			.well(边框圆角)
+			
+			
+	3.js插件
+		1)模态框
+		2)下拉菜单
+		3)滚动监听
+		4)标签页
+		5)工具提示
+		6)弹出框
+		7)警告框
+		8)按钮
+		9)折叠效果
+		10)幻灯片效果
+		11)固定侧边栏
+
