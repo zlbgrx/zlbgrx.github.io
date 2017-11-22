@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>home</title>
+		<link rel="stylesheet" href="css/swiper-3.4.0.min.css" />
+		
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+		<script src="js/rem.js"></script>
+		<script src="js/jquery-1.12.4.min.js"></script>
+		
+		<script src="js/swiper-3.4.0.jquery.min.js"></script>
+		<script src="js/home.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="swiper-container" id="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="http:\/\/lexbst.oss-cn-shanghai.aliyuncs.com\/b7942bfe6eb3f9951b16d4db5d660c97.jpg" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="http:\/\/lexbst.oss-cn-shanghai.aliyuncs.com\/72cd3ce6d1a20c799114032c368f62c8.jpg" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="http:\/\/lexbst.oss-cn-shanghai.aliyuncs.com\/e71d809ce4a2f2f8510e1a09ec93b9c7.jpg" alt="" />
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="search">
+				<span>合肥^</span>
+				<div class="search-img">
+					<img src="" alt="" />
+					<input type="text" class="form-control" placeholder="搜索一下你就知道">
+				</div>
+				<div class="message">
+					<p>xinxi</p>
+					<p>消息</p>
+				</div>
+			
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var swiper = new Swiper('#swiper-container',{
+			direction: 'horizontal',
+			loop: true,
+			speed: 500,
+			autoplay: 2000,
+			pagination : '.swiper-pagination',
+			paginationClickable : true,
+			autoHeight: true,
+			roundLengths: true,
+			nested: true,
+			autoplayDisableOnInteraction: false,
+			lazyLoadingInPrevNext : true,
+			zoom : true
+		})
+	</script>
+</html>
